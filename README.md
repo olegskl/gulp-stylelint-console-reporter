@@ -14,6 +14,7 @@ npm install gulp-stylelint-console-reporter --save-dev
 ## Quick start
 
 ```js
+import gulpStylelint from 'gulp-stylelint';
 import consoleReporter from 'gulp-stylelint-console-reporter';
 
 gulp.task('lint-css', function lintCssTask() {
