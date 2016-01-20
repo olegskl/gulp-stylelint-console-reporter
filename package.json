@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint {test,src}/**/*.js",
-    "test": "npm run lint",
+    "test": "npm run lint && babel-tape-runner test/*.spec.js",
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
   "repository": {
@@ -34,7 +34,10 @@
     "babel-core": "^6.4.5",
     "babel-eslint": "^4.1.6",
     "babel-preset-es2015": "^6.3.13",
+    "babel-tape-runner": "^2.0.0",
     "eslint": "^1.10.3",
-    "eslint-config-meetic": "^0.1.2"
+    "eslint-config-meetic": "^0.1.2",
+    "sinon": "^1.17.2",
+    "tape": "^4.4.0"
   }
 }
