@@ -4,6 +4,8 @@
   "description": "gulp-stylelint reporter to display stylelint results in console",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "eslint {test,src}/**/*.js",
+    "test": "npm run lint",
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
   "repository": {
