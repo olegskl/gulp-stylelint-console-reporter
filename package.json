@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/olegskl/gulp-stylelint-console-reporter",
   "dependencies": {
-    "gulp-util": "3.0.7"
+    "gulp-util": "^3.0.7"
   },
   "devDependencies": {
     "babel": "^6.5.1",
